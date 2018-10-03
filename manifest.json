@@ -1,0 +1,15 @@
+{
+  "manifest_version":2,
+  "name":"Whatsapp-Black Extension",
+  "version":"0.001",
+  "description":"this is a extension what makes background color of whatsappWeb black",
+  "content_scripts":[
+    {
+      "matches":["https://web.whatsapp.com/"],
+      "js":[
+        "content.js"
+        ]
+    }
+  ]
+
+}
